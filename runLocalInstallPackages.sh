@@ -24,7 +24,7 @@ echo input files location  is -$INPUT_FILES_DIR-
 ##################################################
 # MODIFICATION FOR R PACKAGE INSTALLATION
 ##################################################
-if [ -f "$TASKLIB/r.package.info" ]
+if [[ -f "$TASKLIB/r.package.info" ] && -f "/build/source/installPackages.R" ]]
 then
 	echo "$TASKLIB/r.package.info found."
         Rscript /build/source/installPackages.R $TASKLIB/r.package.info
