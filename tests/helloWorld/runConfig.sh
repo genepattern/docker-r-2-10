@@ -13,7 +13,7 @@ COMMAND_LINE="java -cp /build -DR_HOME=$RHOME -Dr_flags=\"--no-save --quiet --sl
 DOCKER_CONTAINER=genepattern/docker-r-2-10
 
 # aws batch only vars 
-S3_ROOT=s3://moduleiotest
+S3_ROOT=s3://gpbeta
 JOB_QUEUE=TedTest
 JOB_DEFINITION_NAME="R210_Generic"
 JOB_ID=gp_job_R210_helloWorld_$1
