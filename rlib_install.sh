@@ -1,4 +1,5 @@
 #/usr/bin/bash
+# copyright 2017-2018 Regents of the University of California and the Broad Institute. All rights reserved.
 
 #graph_1.22.2
 #Biobase_2.6.1

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# copyright 2017-2018 Regents of the University of California and the Broad Institute. All rights reserved.
 # strip off spaces if present
 TASKLIB="$(echo -e "${1}" | tr -d '[:space:]')"
 INPUT_FILES_DIR="$(echo -e "${2}" | tr -d '[:space:]')"
